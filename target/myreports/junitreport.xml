@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.168" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Uber Booking Feature" name="Booking Cab" time="0.022">
+<system-out><![CDATA[
+Given User wants to select a car type "sedan" from uber app.................passed
+When User selects car "sedan" and pick up point as "bangalore" drop location "pune".passed
+Then Driver starts journey..................................................passed
+And Driver ends the journey.................................................passed
+Then User pays 1000 USD.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Uber Booking Feature" name="Booking Cab1" time="0.002">
+<system-out><![CDATA[
+Given User wants to select a car type "suv" from uber app...................passed
+When User selects car "sedan" and pick up point as "bangalore" drop location "delhi".passed
+Then Driver starts journey..................................................passed
+And Driver ends the journey.................................................passed
+Then User pays 1000 USD.....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
