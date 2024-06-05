@@ -15,7 +15,7 @@ public class UberSteps {
 	@When("User selects car {string} and pick up point as {string} drop location {string}")
 	public void user_selects_car_and_pick_up_point_as_drop_location(String carType, String pickUpPoint,
 			String dropLocation) {
-		System.out.println("Step 2:" + carType);
+		System.out.println("Step 2:" + carType + " "+ pickUpPoint +" "+ dropLocation);
 
 	}
 
@@ -33,7 +33,7 @@ public class UberSteps {
 
 	@Then("User pays {int} USD")
 	public void user_pays_usd(Integer price) {
-		System.out.println("Step 5:" +price);
+		System.out.println("Step 5:" + price);
 
 	}
 

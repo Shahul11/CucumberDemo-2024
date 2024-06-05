@@ -10,6 +10,8 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(features = { "K:\\EclipseAutomation\\CucmberDemo\\resources\\AppFeatures\\Search.feature" }, glue = {
 		"stepdefination", "myhooks" }, tags="@smoke", plugin = { "pretty" })
 
+
+
 public class AmazonTest {
 
 }

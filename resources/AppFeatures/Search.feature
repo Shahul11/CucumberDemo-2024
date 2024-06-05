@@ -23,14 +23,15 @@ Feature: Amazon Search
     When I search for a product with name "Apple Macbook Pro" and price 1000
     Then Product with name "Apple Macbook Pro" should be displayed
 
-  @smoke
+  @smoke 
   Scenario: Search a produt MacBook Air
     Given I have a search filed in Amazon Page
     When I search for a product with name "Apple Macbook Air" and price 2000
     Then Product with name "Apple Macbook Pro" should be displayed
     Then order id is 12345 and username is "Shahul"
 
-  Scenario: Search a produt for iPhone
+@smoke 
+Scenario: Search a produt for iPhone
     Given I have a search filed in Amazon Page
     When I search for a product with name "iPhone" and price 800
     Then Product with name "iPhone" should be displayed
